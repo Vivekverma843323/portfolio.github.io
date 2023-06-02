@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6dc7ab5abe.js" crossorigin="anonymous"></script>
+    <script src="script.js" crossorigin="anonymous" ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+    <!-- ------------------------------------------header--------------------------------------------- -->
+    <div id="header" class="header">
+
+
+
+
+        <div class="container">
+            <nav>
+                <img src="image/portfolio__4_-removebg-preview.png" class="logo">
+
+
+
+
+                <div class=" list">
+                    <ul id="sidemenu">
+                        <i class="fa-solid nav-icon fa-xmark " onclick="closemenu()"></i>
+                        <li class="nav_button"><a class="links" href="#header">Home</a></li>
+                        <li class="nav_button"><a class="links" href="#about">About</a></li>
+                        <li class="nav_button"><a class="links" href="#services">Services</a></li>
+                        <li class="nav_button"><a class="links" href="#portfolio">portfolio</a></li>
+                        <li class="nav_button"><a class="links" href="#contact-form">Contact</a></li>
+
+                    </ul>
+                    <i class="fa-solid nav-icon nav-icon fa-bars " onclick="openmenu()"></i>
+                </div>
+
+
+
+
+
+            </nav>
+
+
+
+
+            <div class="header-text">
+                <p>  <span>  A Sophomore </span>at NIT Srinagar</p>
+                <h1>Hey! ,I'm <span>Vivek</span><br> from Bihar</h1>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/_rerek__?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vivek-vatsal-65781a231"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://secure.skype.com/portal/profile"><i class="fa-brands fa-skype"></i></i></a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!-- -----------------------about------------------ -->
+
+
+    <div id="about">
+
+
+
+
+        <div class="container">
+
+
+
+
+            <div class="row">
+
+
+
+
+                <div class="about-col-1">
+                    <img src="image/display picture.jpg">
+                </div>
+
+
+
+
+                <div class="about-col-2">
+
+
+                    <h1 class="sub-title">About Me</h1>
+
+
+                    <p>Welcome to my portfolio website! My name is Vivek Vatsal, and I'm a passionate front-end web
+                        developer who loves crafting engaging user experiences. I'm currently pursuing my degree in
+                       <span class="cllg"> Electronics and Communication Engineering</span> at <span class="cllg">N.I.T. Srinagar</span>  and have mastered HTML, CSS, and JS to build
+                        responsive and dynamic websites. Apart from web development, I'm also interested in the world of
+                        CUDA and blockchain and am constantly seeking new challenges to push my limits.
+                    </p>
+
+                    <!-----------------------------------------------tab-links---------------------------------------->
+                    <div></div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+
+
+
+                    <!---------------------------------------skills----------------------------------------------------->
+                    <div class="tab-containts active-tab" id="skills">
+                        <ul>
+                            <li><span>CUDA</span><br>CUDA is a parallel computing platform developed by NVIDIA that
+                                enables faster processing of large amounts of data using GPUs.</li>
+
+                            <li><span>HTML/CSS</span><br>designing websites</li>
+
+                            <li><span>Java Script</span><br>giving life in websites</li>
+
+                            <li><span>Graphic Design</span><br>importing imagination into graphics</li>
+
+                        </ul>
+                    </div>
+
+                    <!------------------------------------experience----------------------------------------------------->
+                    <div class="tab-containts" id="experiences">
+                        <ul>
+                            <li><span>finguring out....</span></li>
+
+                        </ul>
+                    </div>
+
+
+                    <!------------------------------------------education----------------------------------------------->
+                    <div class="tab-containts" id="education">
+                        <ul>
+
+
+                            <li><span> N.I.T Srinagar</span><br>As a curious and ambitious sophomore studying Electrical
+                                and Computer Engineering, I am currently pursuing my education at the prestigious NIT
+                                Srinagar.<br><br>2021-2025 </li>
+
+
+                            <li><span>Parishram</span><br>Proudly hailing from the illustrious Institute of Parishram, I
+                                triumphed over the J.E.E. Mains exam, paving the way for a promising future in
+                                Engineering!<br><br>2020-2021</li>
+
+
+                            <li><span>Paramount Accademy</span><br>did my 11th and 12th <br><br>2020-2021</li>
+
+
+                            <li><span>D.A.V Public School</span><br>Embarking on my academic journey at DAV Public
+                                School in Muzaffarpur, I emerged victorious with flying colors, scoring an impressive
+                                89.6% in my 10th grade exams!<br><br>2008-2018</li>
+
+
+
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+    
+    <!-- -------------------------------------------services----------------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+
+
+            <h1 class="sub-title">My Services</h1>
+
+
+            <div class="services-list">
+
+                <div class="service">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Front-end web development refers to the part of web development that deals with creating the user
+                        interface and user experience of a website or web application.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service">
+                    <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX designer</h2>
+                    <p>A UI/UX designer is a professional who specializes in designing the user interface and user
+                        experience of digital products such as websites, mobile apps, and software applications.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service">
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Graphics Designing</h2>
+                    <p>A graphics designer is a professional who specializes in creating visual concepts, using computer
+                        software or by hand, to communicate ideas that inspire, inform, or captivate consumers.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ---------------------------------portfolio-------------------------------------- -->
+
+
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/youtube.jpg">
+                    <div class="layer">
+                        <h3>Youtube Clone</h3>
+                        <p>A basic YouTube clone! Using HTML, CSS, and JavaScript, I was able to replicate key
+                             features like the video player, comments section, and registration system.
+                              It was a great way to learn front-end  technologies, and I can't 
+                              wait to tackle my next project!
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/spotify1.jpeg">
+
+                    <div class="layer">
+                        <h3>Spotify clone</h3>
+                        <p>I recently completed a basic Spotify clone as my web development project. Using HTML, CSS, and JavaScript,
+                             I was able to replicate some of the key features of Spotify, including the music player, search function, 
+                             and playlist creation. This project helped me gain experience in front-end
+                             web development, and I am excited to continue building my skills and exploring new projects in the future.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/portfolio.png">
+                    <div class="layer">
+                        <h3>Portfolio website</h3>
+                        <p>
+                            My portfolio website was a web development project, which I built using HTML,
+                             CSS, and JavaScript. Although it was a basic website, I was able to showcase my skills
+                              and experience through a clean and professional design, responsive layout, and 
+                              interactive features such as smooth scrolling and hover effects. This project helped 
+                              me gain a strong foundation in front-end webdevelopment, 
+                                and I am excited to continue expanding my knowledge and creating more dynamic 
+                            websites in the future.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+
+
+    <!---------------------------contact form--------------------------------------->
+
+    <div id="contact-form">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>vivekverma843323@gmail.com</p>
+                    <p><i class="fa-solid fa-address-book"></i>8676071094</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/_rerek__?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vivek-vatsal-65781a231"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://secure.skype.com/portal/profile"><i class="fa-brands fa-skype"></i></i></a>
+                    </div>
+                    <a href="image/personal-portfolio-img (1)/images/my-cv.pdf" download class="btn btn2">download
+                        CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>
+                copyright © vivek vatsal 2020<i class="fa-solid fa-heart"></i>
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontaints = document.getElementsByClassName("tab-contains");
+
+        function opentab(opentab) {
+            //this is "for of" loop used for iterate all the element present in "this writer after "of"
+
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+
+            for (tabcontaint of tabcontaints) {
+                tabconta.classList.remove("active-tab");   //this will iterate to all teh tab-contains
+            }
+
+        }
+    </script> -->
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";               //this will acess right element of sidemenu
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200";               //this will acess right element of sidemenu
+
+        }
+
+
+
+
+    </script>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+  event.preventDefault(); // Prevent form submission
+
+  // Get form data
+  const formData = new FormData(event.target);
+  const data = Object.fromEntries(formData.entries());
+
+  // Read the existing Excel file
+  const reader = new FileReader();
+  reader.onload = function (e) {
+    const workbook = XLSX.read(e.target.result, { type: 'binary' });
+    const sheetName = workbook.SheetNames[0];
+    const worksheet = workbook.Sheets[sheetName];
+
+    // Find the next empty row
+    const range = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+    const newRow = range.length + 1;
+
+    // Write form data to Excel
+    worksheet[`A${newRow}`] = { t: 's', v: data.Name };
+    worksheet[`B${newRow}`] = { t: 's', v: data.email };
+    worksheet[`C${newRow}`] = { t: 's', v: data.Message };
+
+    // Convert the updated workbook back to binary
+    const updatedWorkbook = XLSX.write(workbook, { bookType: 'xlsx', type: 'binary' });
+
+    // Save the updated Excel file
+    const blob = new Blob([s2ab(updatedWorkbook)], { type: 'application/octet-stream' });
+    saveAs(blob, 'your-excel-file.xlsx');
+
+    // Handle success
+    alert('Form data submitted successfully!');
+    event.target.reset();
+  };
+
+  // Read the uploaded Excel file
+  const file = event.target.elements.fileInput.files[0];
+  reader.readAsBinaryString(file);
+});
+
+function s2ab(s) {
+  const buf = new ArrayBuffer(s.length);
+  const view = new Uint8Array(buf);
+  for (let i = 0; i < s.length; i++) view[i] = s.charCodeAt(i) & 0xff;
+  return buf;
+}
+    </script>
+
+</body>
+
+</html>
